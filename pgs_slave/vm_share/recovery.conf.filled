@@ -1,0 +1,9 @@
+standby_mode='on'
+
+primary_conninfo='host=10.10.0.10 port=5432 user=replica application_name=pg_slave_1'
+
+restore_command='rsync -ae ssh 10.10.0.10:/var/lib/postgresql/9.6/main/archive/%f %p --progress 2>>/var/log/postgresql/standby.log'
+
+trigger_file='/tmp/postgresql.trigger.5432'
+
+recovery_target_timeline='latest'

@@ -1,0 +1,1 @@
+{"virtualbox":{"/vm_share":{"group":1007,"mount_options":["dmode=775,fmode=664"],"guestpath":"/vm_share","hostpath":"/Volumes/Files/repositories/pgs_slave/vm_share","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Volumes/Files/repositories/pgs_slave","disabled":false,"__vagrantfile":true}}}
